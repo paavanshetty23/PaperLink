@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sentence-transformers
+faiss-cpu
+PyPDF2
+networkx
+python-multipart
+yake
+pydantic
+orjson
+httpx
+python-dotenv
+pytest
+scikit-learn
+joblib
