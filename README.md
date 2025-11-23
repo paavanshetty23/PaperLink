@@ -13,17 +13,6 @@ A FastAPI + React application that ingests a folder of research paper PDFs, buil
 
 ## Architecture Overview
 
-```mermaid
-graph TD
-    A[Upload PDFs] --> B[PDF Loader: extract + chunk]
-    B --> C[Embeddings Index]
-    B --> D[Keyphrase Extractor]
-    D --> E[Knowledge Graph]
-    C --> F[Query Engine]
-    E --> F
-    F --> G[LLM Synthesis (optional Grok)]
-    G --> H[Answer + Sources + Subgraph]
-```
 
 ### Knowledge Graph Construction
 ```mermaid
